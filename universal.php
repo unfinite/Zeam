@@ -65,34 +65,3 @@ class Universal {
 
 }
 
-
-// OPTIONAL. 
-
-class SessionManager {
-
-	public $prefix = "<b>UniversalEngine:</b>&nbsp;";
-	protected $logging;
-
-	function __construct($logging = "no") {
-		$this->logging = $logging;
-	}
-
-	function start_session($id = ""){
-		session_start($id);
-
-		if ($this->logging == "yes") {
-			echo ''.$this->prefix.'<i>Session created.</i><br>';
-		}
-
-	}
-
-	function unset_session() {
-		session_destroy();
-		if ($this->logging == "yes") {
-			echo ''.$this->prefix.'<i>Session destroyed.</i><br>';
-		}
-
-	}
-}
-// OPTIONAL. 
-
