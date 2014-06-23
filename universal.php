@@ -62,6 +62,26 @@ class Universal {
     	}
 
 	}
+	
+	function hash($type, $content) {
+		if ($type == "md5") {
+			$string = md5($content);
+			return $string;
+		}
+	}
+		if ($type == "sha1") {
+			$string = sha1($content);
+			return $string;
+		}
+		if ($type == "crypt") {
+			$string = crypt($content);
+			return $string;
+		}
+		if ($type == "crypt&trim") {
+			 crypt(trim($content));
+			 return $string;
+		}
+	}
 
 }
 
