@@ -49,16 +49,16 @@ class Universal {
 	}
 
 	function start() {
-
+		
+		global $mysqli;
 		$mysqli = new mysqli($this->host, $this->user, $this->password, $this->db);
 
 		if (mysqli_connect_errno()) {
     		echo ''.$this->prefix.' <i>Could not establish a connection with the database. Please check your variables. For detailed information, refer to PHP error reporting.</i><br>';
-    	} else {
+    		} else {
     		if ($this->logging == "yes") {
 			echo ''.$this->prefix.'<i>Connection established.</i><br>';
 		}
-		return $mysqli;
     	}
 
 	}
