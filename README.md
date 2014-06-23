@@ -47,7 +47,7 @@ To use the optional SessionManager,
 
 
 	// Create the Object. The parameter is to enable logging. Set it to no for production environments.
-	$SessionManager = New SessionManager(tr);ue
+	$SessionManager = New SessionManager(true);
 	// Use whichever method you like.
 	$SessionManager->start_session();
 
