@@ -2,27 +2,31 @@
 
 /*
 
- _   _       _                          _ _____            _            
-| | | |     (_)                        | |  ___|          (_)           
-| | | |_ __  ___   _____ _ __ ___  __ _| | |__ _ __   __ _ _ _ __   ___ 
-| | | | '_ \| \ \ / / _ \ '__/ __|/ _` | |  __| '_ \ / _` | | '_ \ / _ \
-| |_| | | | | |\ V /  __/ |  \__ \ (_| | | |__| | | | (_| | | | | |  __/
- \___/|_| |_|_| \_/ \___|_|  |___/\__,_|_\____/_| |_|\__, |_|_| |_|\___|
-                                                      __/ |             
-                                                     |___/              
+
+
+ ________  _______   ________  _____ ______      
+|\_____  \|\  ___ \ |\   __  \|\   _ \  _   \    
+ \|___/  /\ \   __/|\ \  \|\  \ \  \\\__\ \  \   
+     /  / /\ \  \_|/_\ \   __  \ \  \\|__| \  \  
+    /  /_/__\ \  \_|\ \ \  \ \  \ \  \    \ \  \ 
+   |\________\ \_______\ \__\ \__\ \__\    \ \__\
+    \|_______|\|_______|\|__|\|__|\|__|     \|__|
+                                                 
+                                                 
+
 Copyright 2014 Alphasquare.us
 Licensed with the MIT license
-http://github.com/Alphasquare/UniversalEngine
-http://alphasquare.us/universal
+http://github.com/Alphasquare/Zeam
+http://alphasquare.us/code
 
 You can remove this, but we'd love you to death if you kept this here. 
 Also, we'd marry you if you put a link back to Alphasquare.us.
 
 */
 
-class Universal {
+class Zeam {
 
-	public $prefix = "<b>UniversalEngine:</b>&nbsp;";
+	public $prefix = "<b>ZeamEngine:</b>&nbsp;";
 	private $db;
 	private $host;
 	private $user;
@@ -41,7 +45,7 @@ class Universal {
 
 		if ($this->logging) {
 			error_reporting(E_ALL);
-			echo ''.$this->prefix.'<i>Object created. Everything /seems/ fine. Logging is on. Setting UnivEng logging on will also set PHP\'s native error reporting into E_ALL mode. Make sure the variables are correct! Please run the start() method of the class now. </i><br>';
+			echo ''.$this->prefix.'<i>Object created. Everything /seems/ fine. Logging is on. Setting Zeam logging on will also set PHP\'s native error reporting into E_ALL mode. Make sure the variables are correct! Please run the start() method of the class now. </i><br>';
 		} else {
 			error_reporting(0);
 		}
