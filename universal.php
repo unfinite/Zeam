@@ -68,7 +68,6 @@ class Universal {
 			$string = md5($content);
 			return $string;
 		}
-	}
 		if ($type == "sha1") {
 			$string = sha1($content);
 			return $string;
@@ -82,6 +81,5 @@ class Universal {
 			 return $string;
 		}
 	}
-
 }
 
