@@ -3,6 +3,20 @@ UniversalEngine
 
 Universal is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
+Setup
+===============
+
+To set it up, just download the source (``universal.php``) and place it anywhere (preferably the root).
+
+Then, you can develop and extend it. 
+
+Extend
+===============
+
+To not mess up your source, try not to develop there. Instead, just include it into another file, and extend the classes from there. That way your source won't be so messy and it'll be easier to develop. 
+
+A plugin system is coming soon. Some proposed plugins are: plug&play Admin panel, etc.
+
 Documentation
 ===============
 
@@ -31,3 +45,7 @@ To use the optional SessionManager,
 	$SessionManager->start_session();
 
 
+Even more awesomeness
+=====================
+
+Visit Alphasquare.us for more info.
