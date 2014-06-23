@@ -16,7 +16,7 @@
                                                  
 Copyright 2014 Alphasquare.us
 Licensed with the MIT license
-http://github.com/Alphasquare/ZeamEngine
+http://github.com/Alphasquare/Zeam
 http://alphasquare.us/code
 
 You can remove this, but we'd love you to death if you kept this here. 
