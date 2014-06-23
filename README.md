@@ -3,7 +3,7 @@ UniversalEngine
 
 Universal is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
-How to use/Docs
+Documentation
 ===============
 
 To use, simply include the file universal.php in the PHP file you want to initialize it in. Maybe even in each page.
