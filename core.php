@@ -89,3 +89,18 @@ class hash_types {
 	const SHA1 = 1;
 	const CRYPT = 2;
 }
+
+class Modules {
+
+	function __construct($moduleArray) {
+
+		if (is_array($moduleArray)) {
+			foreach ($moduleArray as &$md) {
+    			include('modules/'.$md);
+			}
+		}
+
+	}
+
+}
+
