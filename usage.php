@@ -9,9 +9,9 @@ Refer to readme.md for more information
 */
 
 // Create the Object, input database details. The last parameter is to enable logging. Set it to no for production environments.
-$UniversalEngine = New Universal("db", "host", "user", "password", true);
+$ZeamEngine = New Zeam("db", "host", "user", "password", true);
 // Execute the start method.
-$UniversalEngine->start();
+$ZeamEngine->start();
 
 /*
 
