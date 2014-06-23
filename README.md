@@ -13,7 +13,7 @@ Things in the ``experimental`` branch are extremely unstable. Not for production
 Setup
 ===============
 
-To set it up, just download the source (``universal.php``) and place it anywhere, preferably the root.
+To set it up, just download the source (``core.php``) and place it anywhere, preferably the root.
 
 Then, you can develop and extend it. 
 
@@ -32,11 +32,11 @@ To use, simply include the file universal.php in the PHP file you want to initia
 
 To start, initialize the class. The last parameter is to enable logging. Set it to no for production environments.
 
-  ``$UniversalEngine = New Universal("db", "host", "user", "password", true);``
+  ``$ZeamEngine = New Zeam("db", "host", "user", "password", true);``
 
 Then, simply call the start() method.
 
-  ``$UniversalEngine->start();``
+  ``$ZeamEngine->start();``
 
 It will connect to the database, return the mysqli variable.
 
