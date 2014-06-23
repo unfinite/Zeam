@@ -74,9 +74,8 @@ class Universal {
 			case hash_types::CRYPT:
 				return crypt($content);
 				break;
-			case hash_types::CRYPT_TRIM:
-				return crypt(trim($content));
-				break;
+			default:
+				throw new Exception("Unknown hash type."); // We should probably use a custom Exception class in the future but this'll work for now.
 		}
 	}
 }
@@ -85,5 +84,4 @@ class hash_types {
 	const MD5 = 0;
 	const SHA1 = 1;
 	const CRYPT = 2;
-	const CRYPT_TRIM = 3;
 }
