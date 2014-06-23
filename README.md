@@ -14,7 +14,7 @@ Setup
 ===============
 
 To set it up, just download the source (``core.php``) and place it anywhere, preferably the root.
-
+Create a folder on your server called modules, and another one called Zeam.
 Then, you can develop and extend it. 
 
 Extend
