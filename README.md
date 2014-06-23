@@ -33,8 +33,8 @@ Then, simply call the start() method.
 
 It will connect to the database, return the mysqli variable.
 
-Extra
-=====
+Extras
+======
 
 To use the optional SessionManager, 
 
