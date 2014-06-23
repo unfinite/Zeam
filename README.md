@@ -1,14 +1,19 @@
-UniversalEngine
+Say hello to Zeam.
 ===============
 
-Universal is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
+Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
 Currently it's on a concept stage, but there's more coming, including modular components and possibly a controller->view architecture.
+
+Warning
+===============
+
+Things in the ``experimental`` branch are extremely unstable. Not for production. Please use files from ``master`` branch instead.
 
 Setup
 ===============
 
-To set it up, just download the source (``universal.php``) and place it anywhere, preferably the root.
+To set it up, just download the source (``core.php``) and place it anywhere, preferably the root.
 
 Then, you can develop and extend it. 
 
@@ -27,11 +32,11 @@ To use, simply include the file universal.php in the PHP file you want to initia
 
 To start, initialize the class. The last parameter is to enable logging. Set it to no for production environments.
 
-  ``$UniversalEngine = New Universal("db", "host", "user", "password", "yes");``
+  ``$ZeamEngine = New Zeam("db", "host", "user", "password", true);``
 
 Then, simply call the start() method.
 
-  ``$UniversalEngine->start();``
+  ``$ZeamEngine->start();``
 
 It will connect to the database, return the mysqli variable.
 
@@ -42,7 +47,7 @@ To use the optional SessionManager,
 
 
 	// Create the Object. The parameter is to enable logging. Set it to no for production environments.
-	$SessionManager = New SessionManager("yes");
+	$SessionManager = New SessionManager(true);
 	// Use whichever method you like.
 	$SessionManager->start_session();
 
