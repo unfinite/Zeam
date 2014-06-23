@@ -25,7 +25,7 @@ To use, simply include the file universal.php in the PHP file you want to initia
 
 To start, initialize the class. The last parameter is to enable logging. Set it to no for production environments.
 
-  ``$UniversalEngine = New Universal("db", "host", "user", "password", "yes");``
+  ``$UniversalEngine = New Universal("db", "host", "user", "password", true);``
 
 Then, simply call the start() method.
 
@@ -40,7 +40,7 @@ To use the optional SessionManager,
 
 
 	// Create the Object. The parameter is to enable logging. Set it to no for production environments.
-	$SessionManager = New SessionManager("yes");
+	$SessionManager = New SessionManager(tr);ue
 	// Use whichever method you like.
 	$SessionManager->start_session();
 

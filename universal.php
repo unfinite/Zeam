@@ -29,7 +29,7 @@ class Universal {
 	private $password;
 	protected $logging;
 
-	function __construct($db, $host, $user, $password, $logging = "no") {
+	function __construct($db, $host, $user, $password, $logging = false) {
 
 
 		$this->db = $db;
@@ -39,7 +39,7 @@ class Universal {
 		$this->logging = $logging;
 
 
-		if ($this->logging == "yes") {
+		if ($this->logging) {
 			error_reporting(E_ALL);
 			echo ''.$this->prefix.'<i>Object created. Everything /seems/ fine. Logging is on. Setting UnivEng logging on will also set PHP\'s native error reporting into E_ALL mode. Make sure the variables are correct! Please run the start() method of the class now. </i><br>';
 		} else {
@@ -64,22 +64,26 @@ class Universal {
 	}
 	
 	function hash($type, $content) {
-		if ($type == "md5") {
-			$string = md5($content);
-			return $string;
-		}
-		if ($type == "sha1") {
-			$string = sha1($content);
-			return $string;
-		}
-		if ($type == "crypt") {
-			$string = crypt($content);
-			return $string;
-		}
-		if ($type == "crypt&trim") {
-			 crypt(trim($content));
-			 return $string;
+		switch ($type) {
+			case hash_types::MD5:
+				return md5($content);
+				break;
+			case hash_types::SHA1:
+				return sha1($content);
+				break;
+			case hash_types::CRYPT:
+				return crypt($content);
+				break;
+			case hash_types::CRYPT_TRIM:
+				return crypt(trim($content));
+				break;
 		}
 	}
 }
 
+class hash_types {
+	const MD5 = 0;
+	const SHA1 = 1;
+	const CRYPT = 2;
+	const CRYPT_TRIM = 3;
+}
