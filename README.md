@@ -5,6 +5,11 @@ Universal is a concept PHP engine made to be extensible, ultra-fast, and awesome
 
 Currently it's on a concept stage, but there's more coming, including modular components and possibly a controller->view architecture.
 
+Warning
+===============
+
+Things in the ``experimental`` branch are extremely unstable. Not for production. Please use files from ``master`` branch instead.
+
 Setup
 ===============
 
