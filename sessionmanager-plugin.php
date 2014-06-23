@@ -2,23 +2,27 @@
 
 /*
 
- _   _       _                          _ _____            _            
-| | | |     (_)                        | |  ___|          (_)           
-| | | |_ __  ___   _____ _ __ ___  __ _| | |__ _ __   __ _ _ _ __   ___ 
-| | | | '_ \| \ \ / / _ \ '__/ __|/ _` | |  __| '_ \ / _` | | '_ \ / _ \
-| |_| | | | | |\ V /  __/ |  \__ \ (_| | | |__| | | | (_| | | | | |  __/
- \___/|_| |_|_| \_/ \___|_|  |___/\__,_|_\____/_| |_|\__, |_|_| |_|\___|
-                                                      __/ |             
-                                                     |___/              
+
+
+ ________  _______   ________  _____ ______      
+|\_____  \|\  ___ \ |\   __  \|\   _ \  _   \    
+ \|___/  /\ \   __/|\ \  \|\  \ \  \\\__\ \  \   
+     /  / /\ \  \_|/_\ \   __  \ \  \\|__| \  \  
+    /  /_/__\ \  \_|\ \ \  \ \  \ \  \    \ \  \ 
+   |\________\ \_______\ \__\ \__\ \__\    \ \__\
+    \|_______|\|_______|\|__|\|__|\|__|     \|__|
+                                                 
+                                                 
+                                                 
 Copyright 2014 Alphasquare.us
 Licensed with the MIT license
-http://github.com/Alphasquare/UniversalEngine
-http://alphasquare.us/universal
+http://github.com/Alphasquare/ZeamEngine
+http://alphasquare.us/code
 
 You can remove this, but we'd love you to death if you kept this here. 
 Also, we'd marry you if you put a link back to Alphasquare.us.
 
-This is a class made to test the extensibility and features of the engine. Soon it'll be fully integrated with the Universal class.
+This is a class made to test the extensibility and features of the engine. Soon it'll be fully integrated with the Zeam class.
 
 
 */
@@ -26,7 +30,7 @@ This is a class made to test the extensibility and features of the engine. Soon 
 
 class SessionManager {
 
-	public $prefix = "<b>UniversalEngine:</b>&nbsp;";
+	public $prefix = "<b>ZeamEngine:</b>&nbsp;";
 	protected $logging;
 
 	function __construct($logging = false) {
