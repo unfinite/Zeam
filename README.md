@@ -6,7 +6,7 @@ Universal is a concept PHP engine made to be extensible, ultra-fast, and awesome
 Setup
 ===============
 
-To set it up, just download the source (``universal.php``) and place it anywhere (preferably the root).
+To set it up, just download the source (``universal.php``) and place it anywhere, preferably the root.
 
 Then, you can develop and extend it. 
 
