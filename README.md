@@ -8,7 +8,7 @@ Currently it's on a concept stage, but there's more coming, including modular co
 Social
 ===============
 
-We got an IRC! Just go to freenode and join the channel ``zemd-engine``.
+We got an IRC! Just go to irc.freenode.net and join the channel ``zead-engine``.
 
 Warning
 ===============
