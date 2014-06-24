@@ -5,6 +5,11 @@ Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Bui
 
 Currently it's on a concept stage, but there's more coming, including modular components and possibly a controller->view architecture.
 
+Social
+===============
+
+We got an IRC! Just go to freenode and join the channel ``zemd-engine``.
+
 Warning
 ===============
 
