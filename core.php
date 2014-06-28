@@ -59,13 +59,13 @@ class Zeam {
 		$mysqli = new mysqli($this->host, $this->user, $this->password, $this->db);
 
 		if ($mysqli->connect_errno) {
-    	$this->log('Could not establish a connection with the database. Please check your variables. For detailed information, refer to PHP error reporting.');
-    }
-    else {
-    	$this->log('Connection established.');
-    }
+    			$this->log('Could not establish a connection with the database. Please check your variables. For detailed information, refer to PHP error reporting.');
+    		}
+    		else {
+    			$this->log('Connection established.');
+	 	}
 
-  }
+  	}
 
 	public function hash($type, $content) {
 		switch ($type) {
