@@ -65,7 +65,7 @@ class Zeam {
     	$this->log('Connection established.');
     }
 
-	}
+  }
 
 	public function hash($type, $content) {
 		switch ($type) {
