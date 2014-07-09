@@ -4,6 +4,12 @@ Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Bui
 
 Currently it's on a concept stage, but there's more coming, including modular components and possibly a controller->view architecture.
 
+Notice
+===============
+We are working on a new rebuild of Zeam. Please stand by and sorry for the lack of commits!
+And to show off the new build, we are also going to rebuild Alphasquare.us on it and OOP! So stand by for more power.
+;)
+
 Social
 ===============
 
