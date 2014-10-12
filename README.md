@@ -1,4 +1,8 @@
-![Zeam](http://alphasquare.us/code/logo.png)
+Zeam's status
+==============
+As of today, ![Zeam](http://alphasquare.us/code/logo.png) is on hold until Alphasquare's done. 
+
+
 
 Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
