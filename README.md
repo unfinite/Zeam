@@ -1,12 +1,9 @@
-Zeam's status
-==============
-As of today, ![Zeam](http://alphasquare.us/code/logo.png) is on hold until Alphasquare's done. 
-
-
+Welcome to Zeam!
+=================
 
 Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
-Currently it's on a concept stage, but there's more coming, including modular components and possibly a controller->view architecture.
+For the extremely experimental rebuild, check the zeam-2.0 branch.
 
 Notice
 ===============
