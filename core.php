@@ -91,15 +91,21 @@ class Zeam {
 		echo '<br />';
 	}
 	
-	public static function arr_post() {
+	public static function retrieve_post() {
 		
 		return $_POST;
 		
 	}
 	
-	public static function arr_get() {
+	public static function retrieve_get() {
 		
 		return $_GET;
+		
+	}
+	
+	public static function retrieve_sess() {
+		
+		return $_SESSION;
 		
 	}
 
