@@ -3,18 +3,17 @@ Welcome to Zeam!
 
 Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
-For the extremely experimental rebuild, check the zeam-2.0 branch.
+For the extremely experimental rebuild, check the ``development`` branch.
 
 Notice
 ===============
 We are working on a new rebuild of Zeam. Please stand by and sorry for the lack of commits!
-And to show off the new build, we are also going to rebuild Alphasquare.us on it and OOP! So stand by for more power.
 ;)
 
 Social
 ===============
 
-We got an IRC! Just go to irc.freenode.net and join the channel ``zeam-engine``.
+We got an IRC! Just go to ``irc.freenode.net`` and join the channel ``#zeam-engine``.
 
 Warning
 ===============
@@ -24,8 +23,7 @@ Things in the ``experimental`` branch are extremely unstable. Not for production
 Setup
 ===============
 
-To set it up, just download the source (``core.php``) and place it anywhere, preferably the root.
-Create a folder on your server called modules, and another one called Zeam.
+To set it up, just download the source and place it anywhere, preferably the root.
 Then, you can develop and extend it. 
 
 Extend
@@ -38,32 +36,5 @@ A plugin system is coming soon. Some proposed plugins are: plug&play Admin panel
 Documentation
 ===============
 
-To use, simply include the file universal.php in the PHP file you want to initialize it in. Maybe even in each page.
+Documentation will come when enough code has been implemented to come up with a sizable amount of documentation.
 
-
-To start, initialize the class. The last parameter is to enable logging. Set it to no for production environments.
-
-  ``$ZeamEngine = New Zeam("db", "host", "user", "password", true);``
-
-Then, simply call the start() method.
-
-  ``$ZeamEngine->start();``
-
-It will connect to the database, return the mysqli variable.
-
-Extras
-======
-
-To use the optional SessionManager, 
-
-
-	// Create the Object. The parameter is to enable logging. Set it to no for production environments.
-	$SessionManager = New SessionManager(true);
-	// Use whichever method you like.
-	$SessionManager->start_session();
-
-
-Even more awesomeness
-=====================
-
-Visit Alphasquare.us for more info.
