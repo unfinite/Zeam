@@ -90,6 +90,18 @@ class Zeam {
 		echo '<em>' . $message . '</em>';
 		echo '<br />';
 	}
+	
+	public static function arr_post() {
+		
+		return $_POST;
+		
+	}
+	
+	public static function arr_get() {
+		
+		return $_GET;
+		
+	}
 
 }
 
