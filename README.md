@@ -19,7 +19,7 @@ We got an IRC! Just go to irc.freenode.net and join the channel ``zeam-engine``.
 Warning
 ===============
 
-Things in the ``experimental`` branch are extremely unstable. Not for production. Please use files from ``master`` branch instead.
+Things in the ``development`` branch are extremely unstable. Not for production. Please use files from ``master`` branch instead.
 
 Setup
 ===============
