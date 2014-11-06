@@ -3,18 +3,16 @@ Welcome to Zeam!
 
 Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
 
-For the extremely experimental rebuild, check the zeam-2.0 branch.
+For the extremely experimental rebuild, check the development branch.
 
-Notice
+Build status
 ===============
-We are working on a new rebuild of Zeam. Please stand by and sorry for the lack of commits!
-And to show off the new build, we are also going to rebuild Alphasquare.us on it and OOP! So stand by for more power.
-;)
+[ ![Codeship Status for Alphapixels/Zeam](https://www.codeship.io/projects/2a26e510-478f-0132-e3fa-1287ba88ce3a/status)](https://www.codeship.io/projects/45648)
 
 Social
 ===============
 
-We got an IRC! Just go to irc.freenode.net and join the channel ``zeam-engine``.
+We've got an IRC! Just go to irc.freenode.net and join the channel ``zeam-engine``.
 
 Warning
 ===============
