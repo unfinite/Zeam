@@ -53,3 +53,68 @@ class Zeam {
 
 	}
 
+	public function start() {
+
+		global $mysqli;
+		$mysqli = new mysqli($this->host, $this->user, $this->password, $this->db);
+
+		if ($mysqli->connect_errno) {
+    			$this->log('Could not establish a connection with the database. Please check your variables. For detailed information, refer to PHP error reporting.');
+    		}
+    		else {
+    			$this->log('Connection established.');
+	 	}
+
+  	}
+
+	public function hash($type, $content) {
+		switch ($type) {
+			case hash_types::MD5:
+				return md5($content);
+			break;
+			case hash_types::SHA1:
+				return sha1($content);
+			break;
+			case hash_types::CRYPT:
+				return crypt($content);
+			break;
+			default:
+				// We should probably use a custom Exception class in the future but this'll work for now.
+				throw new Exception("Unknown hash type.");
+		}
+	}
+
+	private function log($message) {
+		if(!$this->logging) return false;
+		echo $this->prefix;
+		echo '<em>' . $message . '</em>';
+		echo '<br />';
+	}
+	
+	public static function retrieve_post() {
+		
+		return $_POST;
+		
+	}
+	
+	public static function retrieve_get() {
+		
+		return $_GET;
+		
+	}
+	
+	public static function retrieve_sess() {
+		
+		return $_SESSION;
+		
+	}
+
+}
+
+class hash_types {
+	const MD5 = 0;
+	const SHA1 = 1;
+	const CRYPT = 2;
+}
+
+/* End of file: core.php */
