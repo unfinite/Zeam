@@ -43,7 +43,7 @@ class Zeam {
 		$this->logging = $logging;
 
 
-		if ($this->logging) {
+		if ($this->logging) 
 			error_reporting(E_ALL);
 			$this->log('Object created. Everything /seems/ fine. Logging is on. Setting Zeam logging on will also set PHP\'s native error reporting into E_ALL mode. Make sure the variables are correct! Please run the start() method of the class now.');
 		}
