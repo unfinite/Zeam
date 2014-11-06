@@ -5,11 +5,6 @@ Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Bui
 
 For the extremely experimental rebuild, check the ``development`` branch.
 
-Notice
-===============
-We are working on a new rebuild of Zeam. Please stand by and sorry for the lack of commits!
-;)
-
 Social
 ===============
 
@@ -18,7 +13,7 @@ We got an IRC! Just go to ``irc.freenode.net`` and join the channel ``#zeam-engi
 Warning
 ===============
 
-Things in the ``experimental`` branch are extremely unstable. Not for production. Please use files from ``master`` branch instead.
+Things in the ``development`` branch are extremely unstable. Not for production. Please use files from ``master`` branch instead.
 
 Setup
 ===============
@@ -29,9 +24,7 @@ Then, you can develop and extend it.
 Extend
 ===============
 
-To not mess up your source, try not to develop there. Instead, just include it into another file, and extend the classes from there. That way your source won't be so messy and it'll be easier to develop. 
-
-A plugin system is coming soon. Some proposed plugins are: plug&play Admin panel, etc.
+There is a modules system coming soon!  You will be able to create custom modules, and even inherit from builtin modules to add functionality of your own!
 
 Documentation
 ===============
