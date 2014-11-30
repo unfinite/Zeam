@@ -5,6 +5,8 @@
  */
 class ZeamCore {
     
+    // WIP
+    
 }
 
 ?>
