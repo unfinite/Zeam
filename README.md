@@ -1,7 +1,7 @@
 Welcome to Zeam!
 =================
 
-Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license.
+Zeam is a concept PHP engine made to be extensible, ultra-fast, and awesome. Building apps with PHP just got faster, and easier. It also gets ultra-fast support, and updates. Licensed with the MIT license. Cool.
 
 Build status
 ===============
